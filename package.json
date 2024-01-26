@@ -11,10 +11,11 @@
     }
   },
   "scripts": {
-    "push": "yarn out1 && yarn out2 && yarn out3",
+    "push": "yarn out1 && yarn out2 && yarn out3 && yarn empty",
     "out1": "git add . --all",
     "out2": "git commit -m \"til\"",
     "out3": "git push",
+    "empty": "echo \"empty\"",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
