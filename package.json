@@ -1,8 +1,20 @@
 {
-  "name": "superior-singularity",
+  "name": "selfrefactor",
   "type": "module",
   "version": "0.0.1",
+  "niketaScripts": {
+    "fileCommands": {
+      "**/*.md": "yarn push"
+    },
+    "testCommands": {
+      "**/*.md": "yarn push"
+    }
+  },
   "scripts": {
+    "push": "yarn out1 && yarn out2 && yarn out3",
+    "out1": "git add . --all",
+    "out2": "git commit -m \"til\"",
+    "out3": "git push",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
