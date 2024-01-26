@@ -15,7 +15,7 @@
     "out1": "git add . --all",
     "out2": "git commit -m \"til\"",
     "out3": "git push",
-    "empty": "echo \"empty\"",
+    "empty": "echo \"done\"",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
